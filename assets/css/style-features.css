@@ -1,0 +1,124 @@
+.features-section{
+	position: relative;
+}
+
+.wblock{
+	background-color: rgba(255,255,255,0.8);
+    margin-top: 1px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    position: absolute;
+    padding: 20px ;
+    font-size: 16px;
+    font-family: 'Myriad Pro Condensed';
+}
+
+.wblock-title{
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.left-top{
+	left: 50px;
+	top: 50px;
+}
+
+.left-bottom{
+	left: 50px;
+	bottom: 50px;
+}
+
+.right-bottom{
+	right: 50px;
+	bottom: 50px;
+}
+
+.right-top{
+	right: 50px;
+	top: 50px
+}
+
+.width-45{
+	width: 45%;
+}
+
+.wblock .button-pink,
+.wblock .button-blue{
+    font-family: 'Myriad Pro Condensed';
+}
+
+.icon-block{
+	text-align: center;
+	font-family: myriad-regular;
+    font-size: 20px;
+    margin: 0px auto;   
+}
+
+.icon-block img{
+	display: inline-block;
+}
+
+.icon-block-text{
+	margin-top: 20px;
+}
+
+.list-icon-block{
+	margin: 20px auto;
+}
+
+.list-icon-block .col-md-2:after {
+  content: '';
+  height: 180px;
+  width: 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #efefef;
+}
+
+.list-icon-block .col-md-2:last-child:after{
+	content: '';
+	height: 0%;
+}
+
+.col-wblock{
+	position: relative;
+}
+
+.col-wblock .wblock{
+	bottom: 2%;
+	width: 95%;
+	left: 2%;
+}
+
+.image-center{
+	text-align: center;
+}
+.image-center img{
+	display: inline-block;
+}
+
+.features-section-pic{
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 620px;
+}
+
+.backgound-daily-updates{
+	background-image: url('/assets/img/banner full size/3.jpg');
+}
+
+.background-legwear{
+	background-image: url('/assets/img/banner full size/2.jpg');
+}
+
+.background-fasttracks{
+	background-image: url('/assets/img/banner full size/1.jpg');
+}
+
+.background-member-benefits{
+	background-image:url('/assets/img/banner.jpg');
+}

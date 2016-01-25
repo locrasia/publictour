@@ -1,0 +1,229 @@
+#tophead,
+#camsticker,
+#email-banner,
+#imagefooter-banner,
+#nav-homemenu{
+  display: none;
+}
+
+.paddingJoinPage{
+  padding: 0px 60px 40px;
+}
+
+.banner-black-line{
+	background-image: -moz-linear-gradient(top, #333333 50%, #000000 100%);
+	background-image: -o-linear-gradient(top, #333333 50%, #000000 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50, #333333), color-stop(100, #000000));
+	background-image: -webkit-linear-gradient(top, #333333 50%, #000000 100%);
+	background-image: linear-gradient(to bottom, #333333 50%, #000000 100%);
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Myriad Pro Condensed';
+	-webkit-box-shadow: 10px 10px 13px -4px rgba(171,169,171,1);
+	-moz-box-shadow: 10px 10px 13px -4px rgba(171,169,171,1);
+	box-shadow: 10px 10px 13px -4px rgba(171,169,171,1);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	word-spacing: -2px;
+}
+
+.block-white{
+	background: #F1F1F1;
+	padding: 30px;
+	font-family: 'Myriad Pro Condensed';
+	font-size: 24px;
+}
+
+.unselect{
+  opacity: 0.4;
+}
+
+.block-white.unselect{
+	opacity: 0.4;
+}
+
+.block-white.select{
+	border: 1px solid #82358c;
+}
+
+.block-white.select a.button-square-green{
+	content: url('../img/icon/icon check.png');
+	background: #82358c;
+	padding: 10px 50px;
+}
+
+.text-green{
+	color: #8DC63F;
+}
+
+div.content-block-white span[class^="text-"]{
+	display: block;
+	line-height: 35px;
+}
+
+.button-square-green{
+	background: #8dc63f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Myriad Pro Condensed';
+    font-size: 20px;
+    border-radius: 0px;
+    padding: 5px 50px;
+}
+
+.text-number-block{
+	text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro Bold Condensed';
+    margin: 40px auto 20px;
+}
+
+.icon-number{
+	text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 70px;
+    position: relative;
+}
+
+.icon-number img{
+	position: absolute;
+    top: -27px;
+    margin-left: -27px;
+}
+
+.grey-step{
+	background: #F1F1F1;
+}
+
+.grey-step .text-number-block{
+	margin-bottom: 0px;
+}
+
+.popular-icon{
+	position: absolute;
+	bottom: 55px;
+  left: 40px;
+}
+
+.block-day{
+	margin-top: 15px;
+	text-align: center;
+    color: #fff;
+    background: #00bff3;
+    font-size: 24px;
+    text-transform: uppercase;
+    height: 200px;
+}
+
+.block-day.select{
+	background: #82358c;
+}
+
+.block-number-day{
+	line-height: 1;
+}
+
+.number-day{
+	font-size: 72px;
+}
+
+.text-day{
+	font-size: 48px;
+}
+
+.save-ing{
+	margin: 0px 20px;
+    background-color: #fff;
+    color: #00bff3;
+    /*font-size: 18px;*/
+}
+
+
+.margin-top-10{
+  margin-top: 10px !important;
+}
+
+.min-height-210{
+  min-height: 210px;
+}
+
+.max-height-455{
+  max-height: 455px;
+}
+
+.height-2-block{
+  min-height: 270px;
+  position: relative;
+}
+
+.button-bottom{
+  bottom: 0px;
+  position: absolute;
+  left: 35%;
+}
+
+/*========================================================================*/
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + img,
+[type="checkbox"]:checked + img {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+[type="checkbox"]:checked + label{
+  font-weight: bold;
+  color: #82358c;
+}
+
+[type="checkbox"] + img{
+}
+
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:not(:checked) + img:before{
+  content: url('../img/icon/box .png');
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+}
+
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:checked + img:after {
+  content: url('../img/icon/box-check.png');
+  position: absolute;
+  left: 0px;
+  top: 2; 
+  width: 17px; 
+  height: 17px;
+  transition: all .2s;
+}
+
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:checked + img:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:checked + img:before {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
